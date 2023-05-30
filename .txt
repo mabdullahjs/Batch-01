@@ -1,3 +1,4 @@
+----------------------------
 30-May-2023
 
 parent to child = props
@@ -14,3 +15,12 @@ get = data mangwana
 post = data bhejna 
 put = data update krna
 delete = data delete krna
+
+
+
+
+Assignment: Create home page get data using json placeholder /posts api when user click on the specific data navigate to about page and show data using nested routing as discuss in class. 
+
+
+
+----------------------------
