@@ -10,11 +10,11 @@ function Navbars() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand onClick={()=>navigate('/')}>Haseeb-Learning</Navbar.Brand>
+        <Navbar.Brand onClick={()=>navigate('/home')}>Haseeb-Learning</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link onClick={()=>navigate('/')}>Home</Nav.Link>
+            <Nav.Link onClick={()=>navigate('/home')}>Home</Nav.Link>
             <Nav.Link onClick={()=>navigate('/about')}>About</Nav.Link>
             <Nav.Link onClick={()=>navigate('/contact')}>Contact</Nav.Link> 
           </Nav>

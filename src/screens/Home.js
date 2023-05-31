@@ -27,7 +27,7 @@ const Home = () => {
     //send data function
     const sendData = (item) => {
         console.log('function called', item)
-        navigate('/about', {
+        navigate('/contact', {
             state: {
                 title: item
             }

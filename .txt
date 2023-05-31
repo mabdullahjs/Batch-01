@@ -24,3 +24,16 @@ Assignment: Create home page get data using json placeholder /posts api when use
 
 
 ----------------------------
+
+31-May-2023
+
+login 
+signup 
+firebase
+material ui intro
+
+
+
+
+
+Assignment: Create login singup screen using firebase.

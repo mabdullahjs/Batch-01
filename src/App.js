@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Router from './config/router';
+import Router from './config/router/router';
 
 const App = () => {
   return (
