@@ -37,3 +37,17 @@ material ui intro
 
 
 Assignment: Create login singup screen using firebase.
+
+----------------------------
+
+02-June-2023
+
+Protected routes
+todo data save to firestore
+
+
+
+
+
+Assignment: create todo app forms send data to db and get that data into console.
+

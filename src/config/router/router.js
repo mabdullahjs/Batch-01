@@ -6,6 +6,7 @@ import Contact from '../../screens/Contact'
 import Navbars from '../../components/Navbar'
 import Login from '../../screens/Login'
 import Register from '../../screens/Register'
+import Protectedroutes from './Protectedroutes'
 
 const Router = () => {
   return (
@@ -14,9 +15,9 @@ const Router = () => {
     <Routes>
         <Route path='/' element={<Login/>} />
         <Route path='/register' element={<Register/>} />
-        <Route path='/home' element={<Home/>} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/contact/*' element={<Contact/>} />
+        <Route path='/home' element={<Protectedroutes component={<Home/>}/>} />
+        <Route path='/about' element={<Protectedroutes component={<About/>}/>} />
+        <Route path='/contact/*' element={<Protectedroutes component={<Contact/>}/>} />
         <Route path='*' element={<h1>No page found!</h1>} />
     </Routes>
     </BrowserRouter>
